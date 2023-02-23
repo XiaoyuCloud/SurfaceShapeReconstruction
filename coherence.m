@@ -1,0 +1,11 @@
+fs=160
+t=(1:160)/160;
+A=1;%一个振幅为1，一个振幅为2
+f=4;
+w1=A1*sin(2*pi*f1*t);
+coh1=2*A^2+2*A^2*cos(2*pi*f*t);
+coh2=2*A^2+2*A^2*cos(2*pi*f*t+pi/2);
+coh3=2*A^2+2*A^2*cos(2*pi*f*t+pi);
+coh4=2*A^2+2*A^2*cos(2*pi*f*t+3*pi/2);
+coh5=2*A^2+2*A^2*cos(2*pi*f*t+2*pi);
+plot(t,coh3);

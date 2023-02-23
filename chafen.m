@@ -1,0 +1,17 @@
+load('quyu2.mat');
+quyu2=phiquyu;
+load('quyu3.mat');
+quyu3=phiquyu;
+load('quyu4.mat');
+quyu4=phiquyu;
+load('quyu5.mat');
+quyu5=phiquyu;
+H2=quyu3-quyu2;
+figure(1);
+mesh(H2);
+H3=quyu4-quyu3;
+figure(2);
+mesh(H3);
+H4=quyu5-quyu4;
+figure(3);
+mesh(H4);
